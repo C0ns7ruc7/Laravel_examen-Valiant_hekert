@@ -29,14 +29,13 @@
             <br/><br/>
 
             <label class="form-label datum-label">
-                Datum:
+                wachtwoord
             </label><br/>
 
             <input class="form-input wachtwoord-input"
                    type="password"
                    name="wachtwoord"
-                   placeholder="wachtwoord"
-                   value="@if (isset($edit)){{ $edit->wachtwoord }}@endif">
+                   placeholder="wachtwoord">
             <br/><br/>
 
             <input class="form-button"

@@ -41,7 +41,7 @@ class BerichtenController extends Controller
             'titel' => 'required|max:128'
         ]);
 
-        Task::create([
+        Berichten::create([
             'titel'  => request('title'),
             'content'  => request('body')
         ]);
@@ -80,15 +80,16 @@ class BerichtenController extends Controller
      * @param  \App\Berichten  $berichten
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Berichten $berichten)
+    public function update(Request $request, $id)
     {
-        DB::table('gebruikers')->where('id', $berichten)->delete();
+        DB::table('gebruikers')->where('id', $id)->delete();
 
         $this->validate(request(), [
             'titel' => 'required|max:128'
         ]);
 
         Task::create([
+            'id' => $id,
             'titel'  => request('title'),
             'content'  => request('body')
         ]);

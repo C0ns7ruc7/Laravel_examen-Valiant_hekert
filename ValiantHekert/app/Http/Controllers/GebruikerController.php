@@ -90,11 +90,12 @@ class GebruikerController extends Controller
         ]);
 
         Gebruikers::create([
+            'id' => $id,
             'gebruiker'  => request('gebruiker'),
             'email'  => request('email'),
             'wachtwoord'  => request(bcrypt('wachtwoord'))
         ]);
-        
+
         return $this->index();
     }
 
