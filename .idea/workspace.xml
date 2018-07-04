@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21dd6f54-833d-4029-9e02-621d18181374" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/app/Berichten.php" afterPath="$PROJECT_DIR$/ValiantHekert/app/Berichten.php" />
       <change beforePath="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php" afterPath="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php" />
-      <change beforePath="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php" afterPath="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php" />
-      <change beforePath="$PROJECT_DIR$/ValiantHekert/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/ValiantHekert/app/Providers/AppServiceProvider.php" />
       <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/show.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/show.blade.php" />
       <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/show.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/show.blade.php" />
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
       <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.50476193">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.76029414">
           <split-first>
@@ -25,28 +28,28 @@
               <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+                    <state relative-caret-position="0">
+                      <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+              <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/HomeController.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="254">
-                      <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                    <state relative-caret-position="326">
+                      <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="BerichtenController.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="BerichtenController.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-476">
-                      <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+                    <state relative-caret-position="220">
+                      <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
                       <folding>
                         <element signature="e#40#58#0#PHP" expanded="true" />
                       </folding>
@@ -54,21 +57,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="2014_10_12_100000_create_password_resets_table.php" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="255">
-                      <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="36" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file leaf-file-name="GebruikerController.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="50" column="70" lean-forward="false" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+                    <state relative-caret-position="136">
+                      <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
                       <folding>
                         <element signature="e#40#59#0#PHP" expanded="true" />
                       </folding>
@@ -80,7 +73,7 @@
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Berichten.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
                       <folding />
                     </state>
                   </provider>
@@ -89,8 +82,8 @@
               <file leaf-file-name="Gebruikers.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Gebruikers.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="102">
-                      <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="16" />
+                    <state relative-caret-position="0">
+                      <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -103,8 +96,8 @@
               <file leaf-file-name="GebruikerFactory.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="187">
-                      <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+                    <state relative-caret-position="255">
+                      <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
                       <folding />
                     </state>
                   </provider>
@@ -126,17 +119,16 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="masterpage.blade.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="masterpage.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="322">
+                  <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
                   <folding>
-                    <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                    <marker date="1530704111933" expanded="true" signature="30:50" ph="..." />
-                    <marker date="1530704111933" expanded="true" signature="335:349" ph="..." />
-                    <marker date="1530704111933" expanded="true" signature="1706:1718" ph="..." />
-                    <marker date="1530704111933" expanded="true" signature="1727:1733" ph="..." />
+                    <marker date="1530706187394" expanded="true" signature="30:50" ph="..." />
+                    <marker date="1530706187394" expanded="true" signature="335:349" ph="..." />
+                    <marker date="1530706187394" expanded="true" signature="1287:1299" ph="..." />
+                    <marker date="1530706187394" expanded="true" signature="1316:1322" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -145,16 +137,18 @@
           <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/show.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
                   <folding>
-                    <marker date="1530703979990" expanded="true" signature="9:28" ph="..." />
-                    <marker date="1530703979990" expanded="true" signature="40:46" ph="..." />
-                    <marker date="1530703979990" expanded="true" signature="56:71" ph="..." />
-                    <marker date="1530703979990" expanded="true" signature="120:136" ph="..." />
-                    <marker date="1530703979990" expanded="true" signature="161:179" ph="..." />
-                    <marker date="1530703979990" expanded="true" signature="232:251" ph="..." />
-                    <marker date="1530703979990" expanded="true" signature="287:306" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="9:28" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="40:46" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="56:71" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="120:122" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="120:137" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="162:181" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="234:254" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="290:310" ph="..." />
+                    <marker date="1530704800712" expanded="true" signature="298:310" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -163,15 +157,15 @@
           <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/show.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
                   <folding>
-                    <marker date="1530704112128" expanded="true" signature="9:28" ph="..." />
-                    <marker date="1530704112128" expanded="true" signature="40:46" ph="..." />
-                    <marker date="1530704112128" expanded="true" signature="56:71" ph="..." />
-                    <marker date="1530704112128" expanded="true" signature="119:139" ph="..." />
-                    <marker date="1530704112128" expanded="true" signature="164:180" ph="..." />
-                    <marker date="1530704112128" expanded="true" signature="221:240" ph="..." />
+                    <marker date="1530706035172" expanded="true" signature="9:28" ph="..." />
+                    <marker date="1530706035172" expanded="true" signature="40:46" ph="..." />
+                    <marker date="1530706035172" expanded="true" signature="56:71" ph="..." />
+                    <marker date="1530706035172" expanded="true" signature="120:141" ph="..." />
+                    <marker date="1530706035172" expanded="true" signature="166:183" ph="..." />
+                    <marker date="1530706035172" expanded="true" signature="241:261" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -180,11 +174,11 @@
           <file leaf-file-name="landing.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
                   <folding>
-                    <marker date="1530700550891" expanded="true" signature="9:28" ph="..." />
-                    <marker date="1530700550891" expanded="true" signature="40:46" ph="..." />
+                    <marker date="1530705650963" expanded="true" signature="9:28" ph="..." />
+                    <marker date="1530705650963" expanded="true" signature="40:46" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -193,61 +187,53 @@
           <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
                   <folding>
-                    <marker date="1530704112197" expanded="true" signature="9:28" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="40:46" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="118:134" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="162:182" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="255:275" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="312:328" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="381:400" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="510:523" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="672:685" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="738:758" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="791:803" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="967:978" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="1027:1049" ph="..." />
-                    <marker date="1530704112197" expanded="true" signature="1082:1094" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="9:28" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="40:46" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="95:121" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="174:189" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="209:228" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="285:305" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="334:350" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="416:435" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="531:544" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="705:718" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="767:787" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="816:828" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="990:1001" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="1046:1068" ph="..." />
+                    <marker date="1530706187532" expanded="true" signature="1097:1109" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
                   <folding>
-                    <marker date="1530704111985" expanded="true" signature="9:28" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="40:46" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="118:134" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="162:182" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="256:272" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="309:327" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="404:413" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="404:423" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="471:490" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="601:614" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="763:776" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="829:849" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="882:894" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="1058:1069" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="1118:1140" ph="..." />
-                    <marker date="1530704111985" expanded="true" signature="1173:1185" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="9:28" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="40:46" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="95:120" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="173:188" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="208:227" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="285:301" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="330:348" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="409:418" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="409:428" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="468:487" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="583:596" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="756:769" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="818:838" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="867:879" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="1040:1051" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="1096:1118" ph="..." />
+                    <marker date="1530706187479" expanded="true" signature="1147:1159" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ValiantHekert/.env">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -255,11 +241,13 @@
           <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+                <state relative-caret-position="17">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="82" />
                   <folding>
-                    <marker date="1530700550920" expanded="true" signature="11:35" ph="..." />
-                    <marker date="1530700550920" expanded="true" signature="64:89" ph="..." />
+                    <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
+                    <marker date="1530705604600" expanded="true" signature="35:59" ph="..." />
+                    <marker date="1530705604600" expanded="true" signature="116:141" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -272,7 +260,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>boxicat</find>
+      <find>$object</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$dbQuery</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -290,18 +282,19 @@
         <option value="$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2018_07_04_081049_create_berichten_table.php" />
-        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php" />
-        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/routes/web.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_000000_create_gebruikers_table.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php" />
-        <option value="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/app/Berichten.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/show.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/show.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php" />
-        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
       </list>
     </option>
   </component>
@@ -420,6 +413,19 @@
               <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -452,6 +458,14 @@
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
@@ -514,12 +528,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530690513102</updated>
-      <workItem from="1530690515795" duration="10618000" />
+      <workItem from="1530690515795" duration="12577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10618000" />
+    <option name="totallyTimeSpent" value="12577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="656" y="0" width="1264" height="1080" extended-state="0" />
@@ -566,19 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <marker date="1530692402207" expanded="true" signature="60:79" ph="..." />
-            <marker date="1530692402207" expanded="true" signature="164:178" ph="..." />
-            <marker date="1530692402207" expanded="true" signature="236:252" ph="..." />
-            <marker date="1530692402207" expanded="true" signature="293:312" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -628,46 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Berichten.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Gebruikers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -702,6 +655,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Gebruikers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -710,137 +687,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php">
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding>
-            <marker date="1530700550920" expanded="true" signature="11:35" ph="..." />
-            <marker date="1530700550920" expanded="true" signature="64:89" ph="..." />
-          </folding>
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php">
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Berichten.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="50" column="70" lean-forward="false" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
-          <folding>
-            <element signature="e#40#59#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="220">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="e#40#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="136">
+          <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
           <folding>
-            <marker date="1530700550891" expanded="true" signature="9:28" ph="..." />
-            <marker date="1530700550891" expanded="true" signature="40:46" ph="..." />
+            <element signature="e#40#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <marker date="1530704112197" expanded="true" signature="9:28" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="40:46" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="118:134" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="162:182" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="255:275" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="312:328" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="381:400" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="510:523" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="672:685" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="738:758" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="791:803" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="967:978" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="1027:1049" ph="..." />
-            <marker date="1530704112197" expanded="true" signature="1082:1094" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding>
-            <marker date="1530704111985" expanded="true" signature="9:28" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="40:46" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="118:134" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="162:182" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="256:272" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="309:327" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="404:413" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="404:423" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="471:490" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="601:614" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="763:776" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="829:849" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="882:894" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="1058:1069" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="1118:1140" ph="..." />
-            <marker date="1530704111985" expanded="true" signature="1173:1185" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <marker date="1530704112128" expanded="true" signature="9:28" ph="..." />
-            <marker date="1530704112128" expanded="true" signature="40:46" ph="..." />
-            <marker date="1530704112128" expanded="true" signature="56:71" ph="..." />
-            <marker date="1530704112128" expanded="true" signature="119:139" ph="..." />
-            <marker date="1530704112128" expanded="true" signature="164:180" ph="..." />
-            <marker date="1530704112128" expanded="true" signature="221:240" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <marker date="1530703979990" expanded="true" signature="9:28" ph="..." />
-            <marker date="1530703979990" expanded="true" signature="40:46" ph="..." />
-            <marker date="1530703979990" expanded="true" signature="56:71" ph="..." />
-            <marker date="1530703979990" expanded="true" signature="120:136" ph="..." />
-            <marker date="1530703979990" expanded="true" signature="161:179" ph="..." />
-            <marker date="1530703979990" expanded="true" signature="232:251" ph="..." />
-            <marker date="1530703979990" expanded="true" signature="287:306" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="40:46" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="56:71" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="120:122" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="120:137" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="162:181" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="234:254" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="290:310" ph="..." />
+            <marker date="1530704800712" expanded="true" signature="298:310" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1530692402207" expanded="true" signature="60:79" ph="..." />
+            <marker date="1530692402207" expanded="true" signature="164:178" ph="..." />
+            <marker date="1530692402207" expanded="true" signature="236:252" ph="..." />
+            <marker date="1530692402207" expanded="true" signature="293:312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1530705650963" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530705650963" expanded="true" signature="40:46" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530704111933" expanded="true" signature="30:50" ph="..." />
-            <marker date="1530704111933" expanded="true" signature="335:349" ph="..." />
-            <marker date="1530704111933" expanded="true" signature="1706:1718" ph="..." />
-            <marker date="1530704111933" expanded="true" signature="1727:1733" ph="..." />
+            <marker date="1530706187394" expanded="true" signature="30:50" ph="..." />
+            <marker date="1530706187394" expanded="true" signature="335:349" ph="..." />
+            <marker date="1530706187394" expanded="true" signature="1287:1299" ph="..." />
+            <marker date="1530706187394" expanded="true" signature="1316:1322" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
+            <marker date="1530705604600" expanded="true" signature="35:59" ph="..." />
+            <marker date="1530705604600" expanded="true" signature="116:141" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <marker date="1530706187532" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="40:46" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="95:121" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="174:189" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="209:228" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="285:305" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="334:350" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="416:435" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="531:544" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="705:718" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="767:787" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="816:828" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="990:1001" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="1046:1068" ph="..." />
+            <marker date="1530706187532" expanded="true" signature="1097:1109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <marker date="1530706035172" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530706035172" expanded="true" signature="40:46" ph="..." />
+            <marker date="1530706035172" expanded="true" signature="56:71" ph="..." />
+            <marker date="1530706035172" expanded="true" signature="120:141" ph="..." />
+            <marker date="1530706035172" expanded="true" signature="166:183" ph="..." />
+            <marker date="1530706035172" expanded="true" signature="241:261" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+          <folding>
+            <marker date="1530706187479" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="40:46" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="95:120" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="173:188" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="208:227" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="285:301" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="330:348" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="409:418" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="409:428" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="468:487" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="583:596" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="756:769" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="818:838" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="867:879" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="1040:1051" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="1096:1118" ph="..." />
+            <marker date="1530706187479" expanded="true" signature="1147:1159" ph="..." />
           </folding>
         </state>
       </provider>

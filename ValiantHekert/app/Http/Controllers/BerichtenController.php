@@ -46,10 +46,10 @@ class BerichtenController extends Controller
      * @param  \App\Berichten  $berichten
      * @return \Illuminate\Http\Response
      */
-    public function show(Berichten $berichten)
+    public function show($berichten)
     {
         $dbQuery = DB::table('berichten')->where('id', $berichten)->first();
-        return view('berichten.index', compact('dbQuery'));
+        return view('berichten.show', compact('dbQuery'));
     }
 
     /**
