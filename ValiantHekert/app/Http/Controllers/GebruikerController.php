@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Gebruikers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class GebruikerController extends Controller
 {
@@ -14,7 +15,7 @@ class GebruikerController extends Controller
      */
     public function index()
     {
-        $dbQuery = Gebruikers::paginate(16);
+        $dbQuery = DB::table('gebruikers')->get();
         return view('gebruikers.index', compact('dbQuery'));
     }
 
@@ -47,7 +48,8 @@ class GebruikerController extends Controller
      */
     public function show($id)
     {
-        //
+        $dbQuery = DB::table('gebruikers')->where('id', $id)->first();
+        return view('gebruikers.show', compact('dbQuery'));
     }
 
     /**

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Berichten;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BerichtenController extends Controller
 {
@@ -14,7 +15,7 @@ class BerichtenController extends Controller
      */
     public function index()
     {
-        $dbQuery = Berichten::paginate(16);
+        $dbQuery = DB::table('berichten')->get();
         return view('berichten.index', compact('dbQuery'));
     }
 
@@ -47,7 +48,8 @@ class BerichtenController extends Controller
      */
     public function show(Berichten $berichten)
     {
-        //
+        $dbQuery = DB::table('berichten')->where('id', $berichten)->first();
+        return view('berichten.index', compact('dbQuery'));
     }
 
     /**

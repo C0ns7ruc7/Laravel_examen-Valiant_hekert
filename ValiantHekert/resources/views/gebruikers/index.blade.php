@@ -1,5 +1,32 @@
 @extends('layout.masterpage')
 
 @section('body')
-    berichten
+    <div class="container">
+        <div class="row">
+            @if(isset($dbQuerry))
+                @foreach ($dbQuerry as $object)
+                    <div class="col-10">
+                        <h2>{{ $object->gebruiker }}</h2>
+                        <p>{{ $object->email }}</p>
+                        <p>gebruiker sinds: {{$object->created_at}}</p>
+                    </div>
+                    <div class="col-2">
+                        <a href="/{{ $object->id }}">
+                            <button class="btn btn-success">show</button>
+                        </a>
+                        <form action="/{{ $object->id }}/edit" method="GET">
+                            {{method_field('EDIT')}}
+                            {{csrf_field()}}
+                            <input type="submit" class="btn btn-warning" value="Edit"/>
+                        </form>
+                        <form action="/{{$object->id}}" method="POST">
+                            {{method_field('DELETE')}}
+                            {{csrf_field()}}
+                            <input type="submit" class="btn btn-danger" value="Delete"/>
+                        </form>
+                    </div>
+                @endforeach
+            @endif
+        </div>
+    </div>
 @endsection
