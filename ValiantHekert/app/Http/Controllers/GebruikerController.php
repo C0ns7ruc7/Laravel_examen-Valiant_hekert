@@ -37,7 +37,7 @@ class GebruikerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('gebruikers.create');
     }
 
     /**
@@ -60,7 +60,8 @@ class GebruikerController extends Controller
      */
     public function edit($id)
     {
-        //
+        $dbQuery = DB::table('gebruikers')->where('id', $id)->first();
+        return view('gebruikers.create', compact('dbQuery'));
     }
 
     /**

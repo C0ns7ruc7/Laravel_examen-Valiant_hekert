@@ -26,7 +26,7 @@ class BerichtenController extends Controller
      */
     public function create()
     {
-        //
+        return view('berichten.create');
     }
 
     /**
@@ -58,9 +58,10 @@ class BerichtenController extends Controller
      * @param  \App\Berichten  $berichten
      * @return \Illuminate\Http\Response
      */
-    public function edit(Berichten $berichten)
+    public function edit($berichten)
     {
-        //
+        $dbQuery = DB::table('berichten')->where('id', $berichten)->first();
+        return view('berichten.create', compact('dbQuery'));
     }
 
     /**
