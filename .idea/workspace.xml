@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21dd6f54-833d-4029-9e02-621d18181374" name="Default" comment="" />
+    <list default="true" id="21dd6f54-833d-4029-9e02-621d18181374" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,68 +13,129 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GebruikerFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018_07_04_081049_create_berichten_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ValiantHekert/database/migrations/2018_07_04_081049_create_berichten_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ValiantHekert/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BerichtenFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/BerichtenFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="GebruikerFactory.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/HomeController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GebruikerController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="2018_07_04_081049_create_berichten_table.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/database/migrations/2018_07_04_081049_create_berichten_table.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/database/seeds/DatabaseSeeder.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BerichtenFactory.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/BerichtenFactory.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="landing.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <marker date="1530698154860" expanded="true" signature="9:28" ph="..." />
+                    <marker date="1530698154860" expanded="true" signature="40:46" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/home.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                  <folding>
+                    <marker date="1530696101249" expanded="true" signature="9:22" ph="..." />
+                    <marker date="1530696101249" expanded="true" signature="34:43" ph="..." />
+                    <marker date="1530696101249" expanded="true" signature="310:327" ph="..." />
+                    <marker date="1530696101249" expanded="true" signature="417:436" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="masterpage.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+                  <folding>
+                    <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                    <marker date="1530698332903" expanded="true" signature="30:50" ph="..." />
+                    <marker date="1530698332903" expanded="true" signature="335:349" ph="..." />
+                    <marker date="1530698332903" expanded="true" signature="1697:1703" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -84,16 +148,16 @@
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/.gitignore" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php" />
-        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php" />
-        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/app/User.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/app/Gebruiker.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2018_07_04_081049_create_berichten_table.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_000000_create_gebruikers_table.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/routes/web.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
       </list>
     </option>
   </component>
@@ -286,12 +350,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530690513102</updated>
-      <workItem from="1530690515795" duration="3539000" />
+      <workItem from="1530690515795" duration="4763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3539000" />
+    <option name="totallyTimeSpent" value="4763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="997" y="0" width="923" height="1080" extended-state="0" />
@@ -336,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <marker date="1530692526182" expanded="true" signature="9:28" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -355,17 +409,6 @@
             <marker date="1530692402207" expanded="true" signature="164:178" ph="..." />
             <marker date="1530692402207" expanded="true" signature="236:252" ph="..." />
             <marker date="1530692402207" expanded="true" signature="293:312" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <marker date="1530692402118" expanded="true" signature="30:50" ph="..." />
-            <marker date="1530692402118" expanded="true" signature="1472:1478" ph="..." />
           </folding>
         </state>
       </provider>
@@ -408,30 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/BerichtenController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
@@ -459,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/ValiantHekert/database/migrations/2018_07_04_081049_create_berichten_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -475,16 +494,85 @@
     <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/BerichtenFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="204">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/app/Http/Controllers/GebruikerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <marker date="1530698154860" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530698154860" expanded="true" signature="40:46" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <marker date="1530696101249" expanded="true" signature="9:22" ph="..." />
+            <marker date="1530696101249" expanded="true" signature="34:43" ph="..." />
+            <marker date="1530696101249" expanded="true" signature="310:327" ph="..." />
+            <marker date="1530696101249" expanded="true" signature="417:436" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/database/factories/GebruikerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1530698332903" expanded="true" signature="30:50" ph="..." />
+            <marker date="1530698332903" expanded="true" signature="335:349" ph="..." />
+            <marker date="1530698332903" expanded="true" signature="1697:1703" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

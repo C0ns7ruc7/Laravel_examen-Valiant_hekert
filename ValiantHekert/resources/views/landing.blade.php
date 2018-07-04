@@ -2,4 +2,6 @@
 
 @section('body')
 
+
+
 @endsection
