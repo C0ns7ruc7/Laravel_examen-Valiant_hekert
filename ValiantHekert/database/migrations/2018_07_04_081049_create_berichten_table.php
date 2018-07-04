@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBerichtensTable extends Migration
+class CreateBerichtenTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class CreateBerichtensTable extends Migration
      */
     public function up()
     {
-        Schema::create('berichtens', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::create('berichten', function (Blueprint $table) {
+            $table->string('title');
+            $table->text('content');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateBerichtensTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('berichtens');
+        Schema::dropIfExists('berichten');
     }
 }
