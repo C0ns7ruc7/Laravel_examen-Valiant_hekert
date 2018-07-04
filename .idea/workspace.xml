@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21dd6f54-833d-4029-9e02-621d18181374" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ValiantHekert/.gitignore" afterPath="$PROJECT_DIR$/ValiantHekert/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_000000_create_gebruikers_table.php" />
+      <change beforePath="$PROJECT_DIR$/ValiantHekert/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +13,84 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <marker date="1530692526095" expanded="true" signature="9:28" ph="..." />
+                <marker date="1530692526095" expanded="true" signature="40:46" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masterpage.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <marker date="1530692402118" expanded="true" signature="30:50" ph="..." />
+                <marker date="1530692402118" expanded="true" signature="1472:1478" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <marker date="1530692526212" expanded="true" signature="9:28" ph="..." />
+                <marker date="1530692526212" expanded="true" signature="40:46" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <marker date="1530692526182" expanded="true" signature="9:28" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="old.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <marker date="1530692402207" expanded="true" signature="60:79" ph="..." />
+                <marker date="1530692402207" expanded="true" signature="164:178" ph="..." />
+                <marker date="1530692402207" expanded="true" signature="236:252" ph="..." />
+                <marker date="1530692402207" expanded="true" signature="293:312" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -26,6 +102,11 @@
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
         <option value="$PROJECT_DIR$/ValiantHekert/.gitignore" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php" />
+        <option value="$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php" />
       </list>
     </option>
   </component>
@@ -35,13 +116,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="997" />
     <option name="width" value="923" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -84,6 +170,55 @@
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="berichten" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gebruikers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel_examen-Valiant_hekert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_examen-Valiant_hekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ValiantHekert" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,17 +255,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530690513102</updated>
-      <workItem from="1530690515795" duration="973000" />
+      <workItem from="1530690515795" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="973000" />
+    <option name="totallyTimeSpent" value="1656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="997" y="0" width="923" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2491731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2491731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -182,6 +318,70 @@
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/landing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <marker date="1530692526182" expanded="true" signature="9:28" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/old.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <marker date="1530692402207" expanded="true" signature="60:79" ph="..." />
+            <marker date="1530692402207" expanded="true" signature="164:178" ph="..." />
+            <marker date="1530692402207" expanded="true" signature="236:252" ph="..." />
+            <marker date="1530692402207" expanded="true" signature="293:312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/layout/masterpage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <marker date="1530692402118" expanded="true" signature="30:50" ph="..." />
+            <marker date="1530692402118" expanded="true" signature="1472:1478" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/gebruikers/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <marker date="1530692526212" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530692526212" expanded="true" signature="40:46" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValiantHekert/resources/views/berichten/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <marker date="1530692526095" expanded="true" signature="9:28" ph="..." />
+            <marker date="1530692526095" expanded="true" signature="40:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
