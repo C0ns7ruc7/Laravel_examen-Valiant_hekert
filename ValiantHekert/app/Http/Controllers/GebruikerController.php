@@ -26,7 +26,7 @@ class GebruikerController extends Controller
      */
     public function create()
     {
-        //
+        return view('gebruikers.create');
     }
 
     /**
@@ -37,7 +37,17 @@ class GebruikerController extends Controller
      */
     public function store(Request $request)
     {
-        return view('gebruikers.create');
+        $this->validate(request(), [
+            'gebruiker' => 'required|max:128'
+        ]);
+
+        Gebruikers::create([
+            'gebruiker'  => request('gebruiker'),
+            'email'  => request('email'),
+            'wachtwoord'  => request(bcrypt('wachtwoord'))
+        ]);
+
+        return $this->index();
     }
 
     /**
@@ -73,7 +83,19 @@ class GebruikerController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        DB::table('gebruikers')->where('id', $id)->delete();
+
+        $this->validate(request(), [
+            'gebruiker' => 'required|max:128'
+        ]);
+
+        Gebruikers::create([
+            'gebruiker'  => request('gebruiker'),
+            'email'  => request('email'),
+            'wachtwoord'  => request(bcrypt('wachtwoord'))
+        ]);
+        
+        return $this->index();
     }
 
     /**
@@ -84,6 +106,7 @@ class GebruikerController extends Controller
      */
     public function destroy($id)
     {
-        //
+        DB::table('gebruikers')->where('id', $id)->delete();
+        return $this->index();
     }
 }

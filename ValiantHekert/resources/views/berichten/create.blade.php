@@ -23,7 +23,7 @@
 
             <textarea class="form-input content-input"
                       name="content"
-                      placeholder="texkts">@if (isset($edit)){{ $edit->content }}@endif</textarea>
+                      placeholder="tekts">@if (isset($edit)){{ $edit->content }}@endif</textarea>
             <br/><br/>
 
             <input class="form-button"

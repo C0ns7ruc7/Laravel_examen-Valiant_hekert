@@ -37,7 +37,16 @@ class BerichtenController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate(request(), [
+            'titel' => 'required|max:128'
+        ]);
+
+        Task::create([
+            'titel'  => request('title'),
+            'content'  => request('body')
+        ]);
+
+        return $this->index();
     }
 
     /**
@@ -73,7 +82,18 @@ class BerichtenController extends Controller
      */
     public function update(Request $request, Berichten $berichten)
     {
-        //
+        DB::table('gebruikers')->where('id', $berichten)->delete();
+
+        $this->validate(request(), [
+            'titel' => 'required|max:128'
+        ]);
+
+        Task::create([
+            'titel'  => request('title'),
+            'content'  => request('body')
+        ]);
+
+        return $this->index();
     }
 
     /**
@@ -82,8 +102,9 @@ class BerichtenController extends Controller
      * @param  \App\Berichten  $berichten
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Berichten $berichten)
+    public function destroy($berichten)
     {
-        //
+        DB::table('gebruikers')->where('id', $berichten)->delete();
+        return $this->index();
     }
 }
