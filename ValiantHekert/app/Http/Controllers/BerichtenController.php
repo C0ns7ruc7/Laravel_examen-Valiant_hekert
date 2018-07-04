@@ -14,7 +14,8 @@ class BerichtenController extends Controller
      */
     public function index()
     {
-        //
+        $dbQuery = Berichten::paginate(16);
+        return view('berichten.index', compact('dbQuery'));
     }
 
     /**

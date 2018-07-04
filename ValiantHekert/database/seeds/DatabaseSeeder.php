@@ -11,6 +11,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        // create pre-created users for login and stuff
+        App\Gebruiker::create([
+            'id' => 0,
+            'gebruiker' => 'admin',
+            'wachtwoord' => bcrypt('toor'),
+            'email' => 'administrator@$this->site.nl'
+        ]);
+
+        // create filler data
+        factory(App\Gebruiker::class, 25)->create();
+        factory(App\Berichten::class, 500)->create();
     }
 }

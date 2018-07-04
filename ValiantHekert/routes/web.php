@@ -14,8 +14,8 @@
 Route::get('/', function () {
     return view('landing');
 });
-Route::resource("/berichten", "BerchtenController");
-Route::resource("/gebrukers", "GebruikerController");
+Route::resource("/berichten", "BerichtenController");
+Route::resource("/gebruikers", "GebruikerController");
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

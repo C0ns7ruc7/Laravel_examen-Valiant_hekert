@@ -14,8 +14,10 @@ class CreateBerichtenTable extends Migration
     public function up()
     {
         Schema::create('berichten', function (Blueprint $table) {
-            $table->string('title');
+            $table->increments('id');
+            $table->string('titel');
             $table->text('content');
+            $table->integer('id_gebruiker');
             $table->timestamps();
         });
     }
