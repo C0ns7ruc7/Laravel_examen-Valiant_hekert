@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // create pre-created users for login and stuff
-        App\Gebruiker::create([
+        App\Gebruikers::create([
             'id' => 0,
             'gebruiker' => 'admin',
             'wachtwoord' => bcrypt('toor'),
@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // create filler data
-        factory(App\Gebruiker::class, 25)->create();
+        factory(App\Gebruikers::class, 25)->create();
         factory(App\Berichten::class, 500)->create();
     }
 }

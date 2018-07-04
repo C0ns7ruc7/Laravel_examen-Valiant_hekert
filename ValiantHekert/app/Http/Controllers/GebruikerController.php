@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Gebruiker;
+use App\Gebruikers;
 use Illuminate\Http\Request;
 
 class GebruikerController extends Controller
@@ -14,7 +14,7 @@ class GebruikerController extends Controller
      */
     public function index()
     {
-        $dbQuery = Gebruiker::paginate(16);
+        $dbQuery = Gebruikers::paginate(16);
         return view('gebruikers.index', compact('dbQuery'));
     }
 
